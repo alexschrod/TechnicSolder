@@ -18,6 +18,7 @@ class SolderMods
     {
         switch ($request->segment(2)) {
             case 'create':
+            case 'import':
                 $check = 'mods_create';
                 break;
             case 'delete':
