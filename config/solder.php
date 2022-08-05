@@ -40,6 +40,4 @@ return [
      **/
     'md5_file_timeout' => intval(env('SOLDER_MD5_FILE_TIMEOUT', '30')),
 
-    'curseforge_api_key' => strval(env('SOLDER_CURSEFORGE_API_KEY', '')),
-
 ];
